@@ -47,6 +47,4 @@ For any questions or issues, please open an issue on GitHub or contact the maint
 *Note: This tool is intended for educational and personal use. Ensure you have the necessary permissions to run network commands on your device.*
 ```
 
-4. After making the changes, scroll down and click the "Commit changes" button to save the updated `README.md` file.
-
 Would you like any further assistance with this process?
