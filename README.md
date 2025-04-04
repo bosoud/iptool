@@ -1,50 +1,70 @@
-# iptool
-Simple Tool to Show Only IP Address
+# IPTool
 
-```markdown
-# iptool
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**iptool** is a simple command-line utility designed to display only the IP address from your network information.
+A lightweight command-line utility that displays your system's IP addresses in a clean, readable format.
 
-## Features
+## 🚀 Features
 
-- Lightweight and easy to use
-- Supports both IPv4 and IPv6
-- Works on various Unix-like operating systems
+- **Simple**: Clean, focused output showing only IP addresses
+- **Multi-Protocol**: Supports both IPv4 and IPv6 addresses
+- **Cross-Platform**: Works on macOS, Linux, and other Unix-like systems
+- **Zero Dependencies**: Pure C implementation with no external dependencies
 
-## Installation
+## 📦 Installation
 
-To install **iptool**, clone the repository and build the project using `make`:
+### From Source
 
-```sh
-git clone https://github.com/bosoud/iptool.git
-cd iptool
-make
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bosoud/iptool.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd iptool
+   ```
+
+3. Build and install:
+   ```bash
+   make
+   sudo make install
+   ```
+
+## 🔨 Usage
+
+Display your IP addresses:
+```bash
+iptool
 ```
 
-## Usage
-
-Run the following command to display your IP address:
-
-```sh
-Command : ip
+Example output:
+```
+IPv4: 192.168.1.100
+IPv6: fe80::1234:5678:9abc:def0
 ```
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome! Please fork this repository and submit pull requests for any improvements or bug fixes.
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## License
+## 📝 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+## ⚠️ Note
 
-For any questions or issues, please open an issue on GitHub or contact the maintainer.
+This tool requires appropriate permissions to access network interface information.
+
+## 📫 Contact
+
+- Create an Issue: [GitHub Issues](https://github.com/bosoud/iptool/issues)
+- Send a Pull Request: [GitHub Pull Requests](https://github.com/bosoud/iptool/pulls)
 
 ---
 
-*Note: This tool is intended for educational and personal use. Ensure you have the necessary permissions to run network commands on your device.*
-```
-
-Would you like any further assistance with this process?
+Made with ❤️ by [Bosoud](https://github.com/bosoud)
